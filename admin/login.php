@@ -83,23 +83,19 @@ include "./bd.php";
                                         placeholder="Contrasenia"
                                     />
                                 </div>
-                                <div class="d-flex">
-
-                                    <button
-                                        type="submit"
-                                        class="btn btn-primary w-50 me-2"
-                                    >
-                                        Ingresar
-                                    </button>
-                                    <input
-                                        name="boton"
-                                        id="boton"
-                                        class="btn btn-primary w-50"
-                                        type="button"
-                                        value="input Boton"
-                                    />
-                                </div>
-
+                                <button
+                                    type="submit"
+                                    class="btn btn-success"
+                                >
+                                    Ingresar
+                                </button>
+                                <input
+                                    name="boton"
+                                    id="boton"
+                                    class="btn btn-warning"
+                                    type="button"
+                                    value="input Boton"
+                                />
 
                             </form>
                         </div>
@@ -131,3 +127,10 @@ include "./bd.php";
 </body>
 
 </html>
+
+<<<<<<< HEAD
+<!-- se modificara en la rama tres  -->
+ <!-- modificacion en rama uno -->
+=======
+<!-- modificacion en rama dos despues de login -->
+>>>>>>> 13c5cfe5ff6fe2e8412ea25e90916e4ac37d26c8
