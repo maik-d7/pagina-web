@@ -83,19 +83,23 @@ include "./bd.php";
                                         placeholder="Contrasenia"
                                     />
                                 </div>
-                                <button
-                                    type="submit"
-                                    class="btn btn-primary"
-                                >
-                                    Ingresar
-                                </button>
-                                <input
-                                    name="boton"
-                                    id="boton"
-                                    class="btn btn-primary"
-                                    type="button"
-                                    value="input Boton"
-                                />
+                                <div class="d-flex">
+
+                                    <button
+                                        type="submit"
+                                        class="btn btn-primary w-50 me-2"
+                                    >
+                                        Ingresar
+                                    </button>
+                                    <input
+                                        name="boton"
+                                        id="boton"
+                                        class="btn btn-primary w-50"
+                                        type="button"
+                                        value="input Boton"
+                                    />
+                                </div>
+
 
                             </form>
                         </div>
