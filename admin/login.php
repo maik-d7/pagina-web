@@ -127,3 +127,9 @@ include "./bd.php";
 </body>
 
 </html>
+<<<<<<< HEAD
+=======
+
+<!-- cambio por modesto -->
+ <!-- mas cambios por modesto -->
+>>>>>>> 6cd25ccc7f3d5803f6ec4fe83864a31dada389fb
