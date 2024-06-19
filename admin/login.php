@@ -129,4 +129,4 @@ include "./bd.php";
 
 </body>
 
-</html>
+
