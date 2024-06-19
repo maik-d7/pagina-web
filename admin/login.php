@@ -83,12 +83,15 @@ include "./bd.php";
                                         placeholder="Contrasenia"
                                     />
                                 </div>
-                                <button
-                                    type="submit"
-                                    class="btn btn-success"
+                                <a
+                                    name=""
+                                    id=""
+                                    class="btn btn-primary"
+                                    href="http://localhost:8000/admin"
+                                    role="button"
+                                    >Entrar</a
                                 >
-                                    Ingresar
-                                </button>
+                                
                                 <input
                                     name="boton"
                                     id="boton"
@@ -126,10 +129,4 @@ include "./bd.php";
 
 </body>
 
-</html>
-<<<<<<< HEAD
-=======
 
-<!-- cambio por modesto -->
- <!-- mas cambios por modesto -->
->>>>>>> 6cd25ccc7f3d5803f6ec4fe83864a31dada389fb
