@@ -85,14 +85,14 @@ include "./bd.php";
                                 </div>
                                 <button
                                     type="submit"
-                                    class="btn btn-success"
+                                    class="btn btn-primary"
                                 >
                                     Ingresar
                                 </button>
                                 <input
                                     name="boton"
                                     id="boton"
-                                    class="btn btn-warning"
+                                    class="btn btn-primary"
                                     type="button"
                                     value="input Boton"
                                 />
@@ -127,10 +127,3 @@ include "./bd.php";
 </body>
 
 </html>
-
-<<<<<<< HEAD
-<!-- se modificara en la rama tres  -->
- <!-- modificacion en rama uno -->
-=======
-<!-- modificacion en rama dos despues de login -->
->>>>>>> 13c5cfe5ff6fe2e8412ea25e90916e4ac37d26c8
