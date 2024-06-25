@@ -7,7 +7,7 @@ $userDB = "root";
 $passDB = "";
 
 try {
-    $db = new PDO("mysql:host=$hostDB;dbname=$nameDB", $userDB, $passDB);
+    $dbConeccion = new PDO("mysql:host=$hostDB;dbname=$nameDB", $userDB, $passDB);
     echo "Conectado";
 } catch(PDOException $e) {
     echo $e->getMessage();
