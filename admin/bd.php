@@ -2,14 +2,14 @@
 <?php 
 
 $hostDB = "localhost";
-$nameDB = "bd_prueba";
+$nameDB = "agency_db";
 $userDB = "root";
 $passDB = "";
 
 try {
     $db = new PDO("mysql:host=$hostDB;dbname=$nameDB", $userDB, $passDB);
-    echo "Conectado";
+    // echo "Conectado"; // Removed for production
 } catch(PDOException $e) {
-    echo $e->getMessage();
+    // echo $e->getMessage(); // Commented out for production, consider logging errors instead
 }
 ?>
